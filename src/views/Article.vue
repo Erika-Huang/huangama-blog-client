@@ -1,13 +1,12 @@
 <script >
   export default{
-    name: 'Home'
+    name: 'Article'
   }
 </script>
 
 <template>
-  <div class="home">
-    <h1>欢迎来到首页</h1>
-    <router-view></router-view>
+  <div class="article">
+    <h1>欢迎来到文章页</h1>
   </div>
 </template>
 
