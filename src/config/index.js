@@ -14,12 +14,12 @@ const EnvConfig = {
     // 开发环境
     dev: {
         baseApi: '/api',
-        mockApi: 'https://www.fastmock.site/mock/07e7d4609ab8ceda9c2ca1e31de96dff/api'
+        mockApi: ' https://mock.presstime.cn/mock/64ef6642ad51c7ed94185b83/api'
     },
     // 测试环境
     test: {
         baseApi: '//test.futurefe.com/api',
-        mockApi: 'https://www.fastmock.site/mock/07e7d4609ab8ceda9c2ca1e31de96dff/api'
+        mockApi: ' https://mock.presstime.cn/mock/64ef6642ad51c7ed94185b83/api'
     },
     // 生产环境
     prod: {

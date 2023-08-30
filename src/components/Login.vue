@@ -5,6 +5,12 @@
       goHome(){
         this.$router.push('/article')
       }
+    },
+    mounted(){
+      this.$request.get('/login',{name:'Erika'},{mock:true,loading:true})
+      .then((res)=> {
+        console.log(res);
+      })
     }
   }
 </script>
